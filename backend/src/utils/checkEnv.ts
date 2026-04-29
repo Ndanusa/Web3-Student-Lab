@@ -110,6 +110,14 @@ const OPTIONAL_VARS: Record<string, { defaultValue: string; description: string 
     defaultValue: '',
     description: 'OpenAI API key for project idea generation (optional)',
   },
+  SIMULATED_PROTOCOL_VERSION: {
+    defaultValue: '20',
+    description: 'Protocol version for Soroban simulation sandbox',
+  },
+  ENABLE_EXPERIMENTAL_HOST_FUNCTIONS: {
+    defaultValue: 'false',
+    description: 'Enable experimental Soroban host functions in sandbox',
+  },
 };
 
 /**

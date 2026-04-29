@@ -1,6 +1,7 @@
 import { NetworkError } from '@stellar/stellar-sdk';
 import logger from '../utils/logger.js';
 import { cbManager } from '../lib/circuit-breaker/CircuitBreakerManager.js';
+import { ledgerSandboxService } from './LedgerSandboxService.js';
 
 /**
  * Certificate Blockchain Service
@@ -172,13 +173,16 @@ export class CertificateBlockchainService {
     const mockContract = this.contractId || 'GUNKNOWNCONTRACT';
     const tokenId = metadata.verification?.tokenId || 'simulated-token-id';
 
-    logger.info(`Simulated mint for token ${tokenId}`);
+    logger.info(
+      `Simulated mint for token ${tokenId} against ${ledgerSandboxService.checkHostEnvironment()}`
+    );
 
     return {
       success: true,
       tokenId,
       transactionHash: mockHash,
       contractAddress: mockContract,
+      protocolVersion: ledgerSandboxService.getConfig().protocolVersion,
     };
   }
 

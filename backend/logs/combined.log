@@ -87,3 +87,183 @@
 2026-04-23 13:48:50 info: WebSocket Server successfully initialized
 2026-04-23 13:48:50 info: Server is running on port 8080
 2026-04-23 13:49:05 info: Shutting down gracefully...
+2026-04-29 16:33:06 error: ❌ Environment Configuration Error: Environment validation failed:
+
+Missing required environment variable: REDIS_URL
+Description: Redis connection URL for background jobs and WebSockets
+Please check your .env file and .env.example for guidance.
+
+Please copy .env.example to .env and fill in the required values.
+2026-04-29 16:33:06 error: ❌ Environment Configuration Error: Environment validation failed:
+
+Missing required environment variable: DATABASE_URL
+Description: PostgreSQL connection string for database connectivity
+Please check your .env file and .env.example for guidance.
+
+Missing required environment variable: REDIS_URL
+Description: Redis connection URL for background jobs and WebSockets
+Please check your .env file and .env.example for guidance.
+
+Please copy .env.example to .env and fill in the required values.
+2026-04-29 16:33:06 error: ❌ Environment Configuration Error: Environment validation failed:
+
+Missing required environment variable: JWT_SECRET
+Description: Secret key for JWT token signing and verification
+Please check your .env file and .env.example for guidance.
+
+Missing required environment variable: REDIS_URL
+Description: Redis connection URL for background jobs and WebSockets
+Please check your .env file and .env.example for guidance.
+
+Please copy .env.example to .env and fill in the required values.
+2026-04-29 16:33:06 error: ❌ Environment Configuration Error: Environment validation failed:
+
+Invalid value for environment variable: JWT_SECRET
+Description: Secret key for JWT token signing and verification
+Current value: "short"
+Please check .env.example for the correct format.
+
+Missing required environment variable: REDIS_URL
+Description: Redis connection URL for background jobs and WebSockets
+Please check your .env file and .env.example for guidance.
+
+Please copy .env.example to .env and fill in the required values.
+2026-04-29 16:33:06 error: ❌ Environment Configuration Error: Environment validation failed:
+
+Invalid value for environment variable: JWT_SECRET
+Description: Secret key for JWT token signing and verification
+Current value: "short"
+Please check .env.example for the correct format.
+
+Missing required environment variable: REDIS_URL
+Description: Redis connection URL for background jobs and WebSockets
+Please check your .env file and .env.example for guidance.
+
+Please copy .env.example to .env and fill in the required values.
+2026-04-29 16:33:06 error: ❌ Environment Configuration Error: Environment validation failed:
+
+Invalid value for environment variable: JWT_SECRET
+Description: Secret key for JWT token signing and verification
+Current value: "your-secret-key-change-in-production"
+Please check .env.example for the correct format.
+
+Missing required environment variable: REDIS_URL
+Description: Redis connection URL for background jobs and WebSockets
+Please check your .env file and .env.example for guidance.
+
+Please copy .env.example to .env and fill in the required values.
+2026-04-29 16:33:06 error: ❌ Environment Configuration Error: Environment validation failed:
+
+Invalid value for environment variable: JWT_SECRET
+Description: Secret key for JWT token signing and verification
+Current value: "your-secret-key-change-in-production"
+Please check .env.example for the correct format.
+
+Missing required environment variable: REDIS_URL
+Description: Redis connection URL for background jobs and WebSockets
+Please check your .env file and .env.example for guidance.
+
+Please copy .env.example to .env and fill in the required values.
+2026-04-29 16:33:06 error: ❌ Environment Configuration Error: Environment validation failed:
+
+Invalid value for environment variable: DATABASE_URL
+Description: PostgreSQL connection string for database connectivity
+Current value: "invalid-url-format"
+Please check .env.example for the correct format.
+
+Missing required environment variable: REDIS_URL
+Description: Redis connection URL for background jobs and WebSockets
+Please check your .env file and .env.example for guidance.
+
+Please copy .env.example to .env and fill in the required values.
+2026-04-29 16:33:06 error: ❌ Environment Configuration Error: Environment validation failed:
+
+Invalid value for environment variable: DATABASE_URL
+Description: PostgreSQL connection string for database connectivity
+Current value: "invalid-url-format"
+Please check .env.example for the correct format.
+
+Missing required environment variable: REDIS_URL
+Description: Redis connection URL for background jobs and WebSockets
+Please check your .env file and .env.example for guidance.
+
+Please copy .env.example to .env and fill in the required values.
+2026-04-29 16:33:06 error: ❌ Environment Configuration Error: Environment validation failed:
+
+Missing required environment variable: REDIS_URL
+Description: Redis connection URL for background jobs and WebSockets
+Please check your .env file and .env.example for guidance.
+
+Missing required environment variable: STELLAR_ISSUER_SECRET_KEY
+Description: Stellar secret key for certificate issuance (production only)
+Please check your .env file and .env.example for guidance.
+
+Missing required environment variable: STELLAR_ISSUER_PUBLIC_KEY
+Description: Stellar public key for certificate issuance (production only)
+Please check your .env file and .env.example for guidance.
+
+Please copy .env.example to .env and fill in the required values.
+2026-04-29 16:33:06 error: ❌ Environment Configuration Error: Environment validation failed:
+
+Missing required environment variable: REDIS_URL
+Description: Redis connection URL for background jobs and WebSockets
+Please check your .env file and .env.example for guidance.
+
+Missing required environment variable: STELLAR_ISSUER_SECRET_KEY
+Description: Stellar secret key for certificate issuance (production only)
+Please check your .env file and .env.example for guidance.
+
+Missing required environment variable: STELLAR_ISSUER_PUBLIC_KEY
+Description: Stellar public key for certificate issuance (production only)
+Please check your .env file and .env.example for guidance.
+
+Please copy .env.example to .env and fill in the required values.
+2026-04-29 16:33:06 error: ❌ Environment Configuration Error: Environment validation failed:
+
+Missing required environment variable: REDIS_URL
+Description: Redis connection URL for background jobs and WebSockets
+Please check your .env file and .env.example for guidance.
+
+Please copy .env.example to .env and fill in the required values.
+2026-04-29 16:33:06 error: ❌ Environment Configuration Error: Environment validation failed:
+
+Missing required environment variable: REDIS_URL
+Description: Redis connection URL for background jobs and WebSockets
+Please check your .env file and .env.example for guidance.
+
+Please copy .env.example to .env and fill in the required values.
+2026-04-29 16:33:06 error: ❌ Environment Configuration Error: Environment validation failed:
+
+Missing required environment variable: REDIS_URL
+Description: Redis connection URL for background jobs and WebSockets
+Please check your .env file and .env.example for guidance.
+
+Please copy .env.example to .env and fill in the required values.
+2026-04-29 16:33:07 error: AggregateError: 
+    at internalConnectMultiple (node:net:1142:49)
+    at afterConnectMultiple (node:net:1723:7)
+2026-04-29 16:33:07 warn: Redis connection closed
+2026-04-29 16:33:07 error: AggregateError: 
+    at internalConnectMultiple (node:net:1142:49)
+    at afterConnectMultiple (node:net:1723:7)
+2026-04-29 16:33:07 warn: Redis connection closed
+2026-04-29 16:33:07 error: AggregateError: 
+    at internalConnectMultiple (node:net:1142:49)
+    at afterConnectMultiple (node:net:1723:7)
+2026-04-29 16:33:07 warn: Redis connection closed
+2026-04-29 16:33:08 error: AggregateError: 
+    at internalConnectMultiple (node:net:1142:49)
+    at afterConnectMultiple (node:net:1723:7)
+2026-04-29 16:33:08 warn: Redis connection closed
+2026-04-29 16:33:08 error: AggregateError: 
+    at internalConnectMultiple (node:net:1142:49)
+    at afterConnectMultiple (node:net:1723:7)
+2026-04-29 16:33:08 warn: Redis connection closed
+2026-04-29 16:33:08 error: AggregateError: 
+    at internalConnectMultiple (node:net:1142:49)
+    at afterConnectMultiple (node:net:1723:7)
+2026-04-29 16:33:08 warn: Redis connection closed
+2026-04-29 16:33:08 error: AggregateError: 
+    at internalConnectMultiple (node:net:1142:49)
+    at afterConnectMultiple (node:net:1723:7)
+2026-04-29 16:33:08 warn: Redis connection closed

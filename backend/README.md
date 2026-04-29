@@ -225,6 +225,10 @@ All API endpoints are prefixed with `/api`:
 - `PUT /api/enrollments/:id` - Update enrollment
 - `DELETE /api/enrollments/:id` - Unenroll student
 
+- `GET /api/v1/sandbox/config` - Get current sandbox configuration
+- `POST /api/v1/sandbox/config` - Update sandbox protocol and host settings
+- `GET /api/v1/sandbox/status` - Get host environment status
+
 ## Project Structure
 
 ```

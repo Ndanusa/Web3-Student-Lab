@@ -21,12 +21,14 @@ import analyticsRouter from './analytics.routes.js';
 import securityRouter from './security.routes.js';
 
 import healthRouter from './health.routes.js';
+import sandboxRouter from './sandbox.routes.js';
 
 const router = Router();
 
 // Mount all feature routers
 router.use('/health', healthRouter);
 router.use('/security', securityRouter);
+router.use('/sandbox', sandboxRouter);
 
 router.use('/analytics', analyticsRouter);
 router.use('/students', studentsRouter);
